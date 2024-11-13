@@ -1,0 +1,149 @@
+/* General body and section styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #000; /* Fallback background color */
+  }
+  
+  /* Transparent black box behind section */
+  .transparent-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.35);  /* 35% transparent black */
+    z-index: -1; /* Keep it behind the content */
+  }
+  
+  /* Section Center styling */
+  .section-center {
+    position: relative;
+    padding: 5rem 0;
+    text-align: center;
+    z-index: 1;
+    color: white;
+  }
+  
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Form and input styling */
+  .lorem-form {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .lorem-form label {
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  
+  .lorem-form input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 100px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .lorem-form button {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-right: 10px;
+    border-radius: 4px;
+  }
+  
+  .lorem-form button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Result area styling */
+  .lorem-text {
+    margin-top: 2rem;
+    color: white;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .error {
+    color: red;
+    font-size: 1.2rem;
+  }
+  
+  /* Button styling for delete and copy actions */
+  .delete-btn,
+  .copy-btn {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-right: 10px;
+    border-radius: 4px;
+  }
+  
+  .delete-btn {
+    background-color: #e74c3c; /* Red background for delete button */
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c0392b; /* Darker red on hover */
+  }
+  
+  .copy-btn {
+    background-color: #2ecc71; /* Green background for copy button */
+    color: white;
+  }
+  
+  .copy-btn:hover {
+    background-color: #27ae60; /* Darker green on hover */
+  }
+  
+  /* Background video styling */
+  #background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* Ensures the video covers the entire screen */
+    z-index: -2; /* Keep the video behind everything */
+  }
+  
+  /* Transparent black table styling */
+  .transparent-table {
+    width: 100%;
+    margin-top: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);  /* Transparent black background */
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border for visibility */
+    color: white;
+  }
+  
+  .transparent-table th, .transparent-table td {
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border for table cells */
+  }
+  
+  .transparent-table th {
+    background-color: rgba(0, 0, 0, 0.7);  /* Darker background for the header */
+  }
+  
+  .transparent-table td {
+    background-color: rgba(0, 0, 0, 0.5);  /* Slightly lighter background for data cells */
+  }
+  
